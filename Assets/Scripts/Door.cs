@@ -5,7 +5,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
 
-    public GameObject intText, key, lockedText;
+    public GameObject intText, keycard, lockedText;
     public bool interactable, toggle;
     //public Animator doorAnim;
 
@@ -31,7 +31,7 @@ public class Door : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (key.active == false)
+                if (keycard == false)
                 {
                     toggle = !toggle;
                     if (toggle == true)
@@ -47,7 +47,7 @@ public class Door : MonoBehaviour
                     intText.SetActive(false);
                     interactable = false;
                 }
-                if (key.active == true)
+                if (keycard == true)
                 {
                     lockedText.SetActive(true);
                     StopCoroutine("disableText");

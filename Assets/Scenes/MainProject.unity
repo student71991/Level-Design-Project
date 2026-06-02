@@ -5182,8 +5182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inttext: {fileID: 1670986442}
-  key: {fileID: 755446516}
-  interactable: 0
+  keycard: {fileID: 755446516}
+  interactable: 1
 --- !u!54 &755446522
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7195,9 +7195,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intText: {fileID: 1670986442}
-  key: {fileID: 911817570}
+  keycard: {fileID: 911817570}
   lockedText: {fileID: 1953816230}
-  interactable: 0
+  interactable: 1
   toggle: 0
 --- !u!54 &967933557
 Rigidbody:

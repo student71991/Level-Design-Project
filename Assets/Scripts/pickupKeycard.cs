@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pickupKey : MonoBehaviour
+public class pickupKeycard : MonoBehaviour
 {
 
-    public GameObject inttext, key;
+    public GameObject inttext, keycard;
     public bool interactable;
 
     void OnTriggerStay(Collider other)
@@ -32,7 +32,7 @@ public class pickupKey : MonoBehaviour
             {
                 inttext.SetActive(false);
                 interactable = false;
-                key.SetActive(false);
+                keycard.SetActive(false);
             }
         }
     }
